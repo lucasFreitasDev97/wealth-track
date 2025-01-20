@@ -27,7 +27,6 @@
                                 </select>
                             </div>
 
-                            <!-- Campo Ano -->
                             <div>
                                 <label for="year" class="block text-sm font-medium text-gray-300">Ano</label>
                                 <input type="number" id="year" name="year" placeholder="Ex: 2025"
@@ -35,7 +34,6 @@
                             </div>
                         </div>
 
-                        <!-- Botão de Pesquisa -->
                         <div class="mt-4">
                             <button type="submit"
                                     class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md shadow-sm focus:outline-none">
@@ -44,7 +42,6 @@
                         </div>
                     </form>
 
-                    <!-- Tabela -->
                     <table class="table-auto w-full border border-gray-700 text-gray-300">
                         <thead class="bg-gray-800">
                         <tr>
@@ -72,7 +69,6 @@
                         @endforeach
                         </tbody>
                     </table>
-
                 </div>
             </div>
         </div>
