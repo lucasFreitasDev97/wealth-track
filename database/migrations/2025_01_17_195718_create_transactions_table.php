@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
-            $table->enum('tile', ['income', 'expense']);
+            $table->enum('type', ['income', 'expense']);
             $table->decimal('amount');
             $table->text('description')->nullable();
             $table->integer('month');
